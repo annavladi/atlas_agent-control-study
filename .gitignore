@@ -1,0 +1,10 @@
+wallets/*.json
+!wallets/addresses.json
+study_config.json
+.env
+STOP
+_to_delete/
+__pycache__/
+runs/sim_comply/
+*.pyc
+.DS_Store

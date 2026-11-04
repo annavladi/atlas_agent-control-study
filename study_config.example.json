@@ -1,0 +1,7 @@
+{
+  "rpc_url": "https://api.mainnet-beta.solana.com",
+  "float_keypair_path": "~/study-keys/study_float.json",
+  "attacker_keypair_dir": "~/study-keys",
+  "slippage_bps": 50,
+  "dry_run": true
+}

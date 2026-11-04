@@ -1,0 +1,51 @@
+{
+  "levels": [
+    1,
+    3,
+    5,
+    6
+  ],
+  "controls": [
+    "none",
+    "soft",
+    "hard",
+    "all"
+  ],
+  "attacks": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "A10",
+    "A11"
+  ],
+  "phrasings": [
+    "plain",
+    "pressure"
+  ],
+  "models": [
+    "fable",
+    "haiku"
+  ],
+  "n_attack": 3,
+  "n_benign": 3,
+  "benign": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B9",
+    "B10"
+  ],
+  "max_unrecovered_loss_usd_per_day": 150,
+  "min_float_usd_to_continue": 80,
+  "attacker_followups": 2
+}

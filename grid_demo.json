@@ -1,0 +1,31 @@
+{
+  "levels": [
+    5,
+    6
+  ],
+  "controls": [
+    "none",
+    "soft",
+    "hard",
+    "all"
+  ],
+  "attacks": [
+    "A11",
+    "A8",
+    "A7",
+    "A10"
+  ],
+  "phrasings": [
+    "plain"
+  ],
+  "models": [
+    "fable",
+    "haiku"
+  ],
+  "n_attack": 3,
+  "n_benign": 0,
+  "benign": [],
+  "max_unrecovered_loss_usd_per_day": 150,
+  "min_float_usd_to_continue": 80,
+  "attacker_followups": 2
+}

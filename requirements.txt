@@ -1,0 +1,6 @@
+# Core harness, tests and the Telegram agent
+requests>=2.31
+# Charts in summarize.py
+matplotlib>=3.8
+# Only needed for the mainnet backend (live_check.py, step2.py, --chain mainnet)
+solders>=0.21
