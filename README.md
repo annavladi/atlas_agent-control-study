@@ -8,7 +8,7 @@ Author: Anna Vladi · November 2026 · License: MIT
 
 An AI operator (Claude Haiku 5.5 or Claude Fable 5.1) ran a JLP trading bot on Solana and took instructions over Telegram. A scripted attacker posing as the owner tried to get it to send funds to wallets the attacker named. With no controls, Haiku helped the attacker in 15 of 24 trials and Fable in 24 of 24 (Fisher exact, one-sided p = 0.0008). Every successful attack needed at least one confirmation from the attacker on the same hijacked chat, so the agent asking "are you sure?" protected nothing. Hard controls written in code (an address allowlist, fixed caps, a confirmation code on a second device) blocked every attempt, even though both models kept trying. A warning in the agent's instructions also stopped both models in this run, but its wording matched these attacks exactly and attacks designed to get around it were not tested.
 
-**Readable report:** open [`results/findings.html`](results/findings.html) in a browser. Short version: [`results/demo_findings.md`](results/demo_findings.md).
+**Findings:** [`results/demo_findings.md`](results/demo_findings.md) (tables, six findings, limitations). A formatted report with a chart and quotes from the transcripts is in [`results/findings.html`](results/findings.html): download it and open it in a browser (GitHub shows it as code).
 
 | Controls | Haiku 5.5 | Fable 5.1 |
 |---|---|---|
